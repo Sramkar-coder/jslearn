@@ -17,7 +17,10 @@ Vehicle.prototype.getSpeed = function(x){
 
 
 var myCar = new Vehicle("324AEAWEQWE4234", "black", 4);
+myCar.setSpeed(100);
 console.log(myCar.getSpeed());
+
+
 
 
 
